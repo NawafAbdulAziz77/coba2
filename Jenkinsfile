@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Test Endpoint') {
             steps {
-                sh 'curl "http://localhost:8081/sum?a=2\&b=3"'
+                sh 'curl "http://localhost:8081/sum?a=2&b=3"'
             }
         }
     }
